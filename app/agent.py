@@ -79,7 +79,7 @@ def generate_synth_data_script(
 
 
 root_agent = Agent(
-    name="root_agent",
+    name="synthetic_data_agent",
     model=Gemini(
         model="gemini-3-flash-preview",
         retry_options=types.HttpRetryOptions(attempts=3),

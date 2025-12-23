@@ -118,12 +118,12 @@ def print_deployment_success(
 )
 @click.option(
     "--display-name",
-    default="my-agent",
+    default="synthetic-data-agent",
     help="Display name for the agent engine",
 )
 @click.option(
     "--description",
-    default="A base ReAct agent built with Google's Agent Development Kit (ADK)",
+    default="An AI-driven synthetic data generator agent built with Google's ADK",
     help="Description of the agent",
 )
 @click.option(
